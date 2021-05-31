@@ -9733,7 +9733,9 @@ h5,
 .text-primary {
     color: #ee76ad !important;
 }
-
+.mylink{
+    color: black;
+}
 .ftco-navbar-light {
     background: transparent !important;
     position: absolute;
@@ -12114,4 +12116,4 @@ textarea.form-control {
     margin: 0px auto;
     padding: 50px 0px;
     border-bottom: 1px ridge;
-    mi
+}
