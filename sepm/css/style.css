@@ -5575,7 +5575,20 @@ input[type="button"].btn-block {
     -ms-flex: 1;
     flex: 1;
 }
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f9f9f9;
+  }
+  .header__logo {
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .header__icon {
+    padding: 20px;
+  }
 .list-group {
     display: -webkit-box;
     display: -ms-flexbox;
